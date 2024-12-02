@@ -2,7 +2,7 @@
 	<img alt="RP Tracking logo" src="docs/img/logo.png" width="800">
 </p>
 
-RP Tracking is an easy-to-use system for tracking mobile robots and drones in indoor lab environments. It uses time-of-flight based sensors, like LiDAR, to detect moving objects in point clouds. Contrary to off-tthe-shelf systems, this work can be used with any time-of-flight sensor that captures accurate data and can be integrated into the ROS 1 environment. Furthermore, it supports multiple sensors to increase accuracy and area size.
+RP Tracking is an easy-to-use system for tracking mobile robots and drones in indoor lab environments. It uses time-of-flight based sensors, like LiDAR, to detect moving objects in point clouds. Contrary to off-the-shelf systems, this work can be used with any time-of-flight sensor that captures accurate data and can be integrated into the ROS 1 environment. Furthermore, it supports multiple sensors to increase accuracy and area size.
 
 
 
