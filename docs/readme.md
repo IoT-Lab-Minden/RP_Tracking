@@ -4,6 +4,7 @@ This file contains the table of contents for the documentation of the robotic pl
 
 ## Table of Contents
 
+- [Software installation](installation.md)
 - [Robotic platform tracking](rp_tracking.md)
 - [Multi sensor support](multi_sensor_support.md)
 - [Partial data support](partial_data_support.md)
