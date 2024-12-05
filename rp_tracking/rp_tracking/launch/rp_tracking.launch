@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Parameters -->
+  <arg name="model"/>
+  <arg name="input_cloud" default="/point_cloud_in_topic"/>
+  <arg name="ground_height" default="0.0"/>
+  <arg name="downsample" default="false"/>
+
+  <!-- Ground Removal -->
+  <node pkg="rp_tracking" type="ground_removal" name="ground_removal" output="screen">
+    <param name="topic_in" value="$(arg input_cloud)"/>
+    <param name="topic_out" value="/no_ground"/>
+    <param name="ground_height" value="$(arg ground_height)"/>
+    <param name="voxelize_cloud" value="$(arg downsample)"/>
+    <param name="voxel_size" value="0.02"/>
+  </node>
+
+  <!-- Background Removal -->
+  <node pkg="rp_tracking" type="background_removal" name="background_removal" output="screen">
+    <param name="topic_in" value="/no_ground"/>
+    <param name="topic_out" value="/foreground"/>
+    <param name="foreground_to_background_ratio" value="0.5"/>
+    <param name="search_radius" value="0.2"/>
+  </node>
+
+  <!-- Cluster Detection -->
+  <node pkg="rp_tracking" type="cluster_detection" name="cluster_detection" output="screen">
+    <param name="topic_foreground" value="/foreground"/>
+    <param name="topic_complete" value="/no_ground"/>
+  </node>
+
+  <!-- Robot Detection -->
+  <node pkg="rp_tracking" type="robot_detection" name="robot_detection" output="screen">
+    <param name="topic_obb" value="/cluster_obb"/>
+    <param name="topic_no_ground_cloud" value="/no_ground"/>
+    <param name="model" value="$(arg model)"/>
+  </node>
+
+</launch>
