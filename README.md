@@ -28,19 +28,19 @@ RP Tracking is an easy-to-use system for tracking mobile robots and drones in in
    roslaunch rp_tracking rp_tracking.launch _model:=MODEL_PATH _input_cloud:=/TOPIC
    ```
 
-For more detailed information on how to use RP Tracking, please take a look at the [documentation](docs/readme.md).
+For more detailed information on how to use RP Tracking, please take a look at the [documentation](docs/readme.md). To test this software, a [demo](docs/demo.md) is made available.
 
 ## Citation
 
 Please cite the following paper in your publications if you use Deploy-to-Grading in your research:
 
 ```bibtex
-@inproceedings{Kirsch2025,
+@inproceedings{RP_Tracking2025,
     author    = "Kirsch, André and Rexilius, Jan",
     title     = "An Easy-to-Use System for Ground Truth Tracking Data Acquisition of Robotic Platforms using Time-of-Flight Sensors in Lab Environments",
     year      = 2025,
-    doi       = "TODO",
-    booktitle = "TODO"
+    booktitle = "14th International Conference on Pattern Recognition Applications and Methods (ICPRAM)",
+    doi       = "TODO"
 }
 ```
 
