@@ -37,7 +37,7 @@ Please cite the following paper in your publications if you use Deploy-to-Gradin
 ```bibtex
 @inproceedings{RP_Tracking2025,
     author    = "Kirsch, André and Rexilius, Jan",
-    title     = "An Easy-to-Use System for Ground Truth Tracking Data Acquisition of Robotic Platforms using Time-of-Flight Sensors in Lab Environments",
+    title     = "An Easy-to-Use System for Tracking Robotic Platforms using Time-of-Flight Sensors in Lab Environments",
     year      = 2025,
     booktitle = "14th International Conference on Pattern Recognition Applications and Methods (ICPRAM)",
     doi       = "TODO"
