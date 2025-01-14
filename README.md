@@ -25,7 +25,7 @@ RP Tracking is an easy-to-use system for tracking mobile robots and drones in in
 5. Execute the following command. Replace *MODEL_PATH* with a path to a model file (e.g. "CATKIN_WS/src/rp_tracking/rp_tracking/rp_tracking/models/tello_cage.model", replace *CATKIN_WS* with the path to your workspace) and set *TOPIC* to the name of the topic, where the input point cloud is published at.
 
    ```bash
-   roslaunch rp_tracking rp_tracking.launch _model:=MODEL_PATH _input_cloud:=/TOPIC
+   roslaunch rp_tracking rp_tracking.launch model:=MODEL_PATH input_cloud:=/TOPIC
    ```
 
 For more detailed information on how to use RP Tracking, please take a look at the [documentation](docs/readme.md). To test this software, a [demo](docs/demo.md) is made available.
