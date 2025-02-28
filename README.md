@@ -40,7 +40,7 @@ Please cite the following paper in your publications if you use Deploy-to-Gradin
     title     = "An Easy-to-Use System for Tracking Robotic Platforms using Time-of-Flight Sensors in Lab Environments",
     year      = 2025,
     booktitle = "14th International Conference on Pattern Recognition Applications and Methods (ICPRAM)",
-    doi       = "TODO"
+    doi       = "10.5220/0013110500003905"
 }
 ```
 
