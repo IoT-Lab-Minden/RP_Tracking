@@ -32,7 +32,7 @@ For more detailed information on how to use RP Tracking, please take a look at t
 
 ## Citation
 
-Please cite the following paper in your publications if you use Deploy-to-Grading in your research:
+Please cite the following paper in your publications if you use the RP tracking software in your research:
 
 ```bibtex
 @inproceedings{RP_Tracking2025,
