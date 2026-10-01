@@ -48,4 +48,4 @@ Please cite the following paper in your publications if you use the RP tracking 
 
 ## License
 
-This [work](https://github.com/IoT-Lab-Minden/rp_tracking) by [André Kirsch](https://github.com/AKirsch1) and [Jan Rexilius](https://github.com/jrx-hsbi) is licensed under [MIT](LICENSE.md).
+This [work](https://github.com/IoT-Lab-Minden/rp_tracking) by [André Kirsch](https://github.com/AKirsch1) and [Jan Rexilius](https://github.com/jrx-hsbi) is licensed under [MIT](LICENSE).
